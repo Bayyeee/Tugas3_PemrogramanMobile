@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.formregistrasi.app-mergeDebugResources-27:/values-v28/values-v28.xml",
+            "outputFile": "com.example.formregistrasi.app-mergeDebugResources-26:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/home/jack/.gradle/caches/transforms-3/9ae6143ba7d88d1cbf68916d08d2afcb/transformed/material-1.8.0/res/values-v28/values-v28.xml",
+                    "source": "/home/jack/.gradle/caches/transforms-3/5f14ac18d4d9ff9c7afd82837ac8c93a/transformed/material-1.8.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/jack/.gradle/caches/transforms-3/8d9343f569df63b726615d18b45679d4/transformed/appcompat-1.6.1/res/values-v28/values-v28.xml",
+                    "source": "/home/jack/.gradle/caches/transforms-3/558e8d9b27b3ef1f19c48e98e25708f5/transformed/appcompat-1.6.1/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

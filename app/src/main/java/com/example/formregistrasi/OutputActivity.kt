@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import org.w3c.dom.Text
 
 class OutputActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -14,6 +15,7 @@ class OutputActivity : AppCompatActivity() {
         val name = intent.getStringExtra("nama")
         val alamat = intent.getStringExtra("alamat")
         val email = intent.getStringExtra("email")
+        val kelamin = intent.getStringExtra("kelamin")
         val tempat = intent.getStringExtra("tempat")
         val tanggal = intent.getStringExtra("tanggal")
         val fakultas = intent.getStringExtra("fakultas")
@@ -28,11 +30,13 @@ class OutputActivity : AppCompatActivity() {
         val data4 = findViewById<TextView>(R.id.data4)
         data4.text = "tempat : " + tempat
         val data5 = findViewById<TextView>(R.id.data5)
-        data5.text = "tanggal : " + tanggal
+        data5.text = "tanggal : $tanggal"
         val data6 = findViewById<TextView>(R.id.data6)
         data6.text = "fakultas : " + fakultas
         val data7 = findViewById<TextView>(R.id.data7)
         data7.text = "prodi : " + prodi
+        val data8 = findViewById<TextView>(R.id.data8)
+        data8.text = "kelamin : " + kelamin
 
     }
 }
